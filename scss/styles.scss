@@ -107,6 +107,9 @@ body {
                 font-size: 1.5em;
                 font-weight: 300;
                 color: $heading;
+                left: 50%;
+                /* Transform your element to perfectly center it */
+                transform: translateX(-50%);
                 display: inline-block;
                 margin: 0;
             }
